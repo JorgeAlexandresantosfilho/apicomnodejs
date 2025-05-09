@@ -4,6 +4,7 @@ const usuarioRoutes = require('./routes/usuarioroutes');
 const registroRoutes = require('./routes/registroroutes');
 const authRoutes = require('./routes/authroutes');
 
+
 app.use(express.json());
 app.use('/monitoapi', usuarioRoutes);
 app.use('/monitoapi', registroRoutes);
